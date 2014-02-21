@@ -31,7 +31,8 @@ html{
 #sidebar{
 	background: red;
 	float: left;
-	width:100px;
+	padding-top: 10px;
+	width:200px;
 	height: 500px;
 	position:fix;
 }
