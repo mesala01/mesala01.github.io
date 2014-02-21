@@ -44,4 +44,14 @@ html{
 	background: red;
 	clear:both;
 }
+
+@media (max-width: 480px) { 
+        body {
+          font-size: 20px;
+        }
+
+        .hidden-phone {
+           display: block;
+        }
+    }
     
