@@ -29,10 +29,11 @@ html{
 	width:500px;
 }
 #sidebar{
-	background: white;
+	background: red;
 	float: left;
-	width:250px;
-	height: 250px;
+	width:100px;
+	height: 500px;
+	position:fix;
 }
 #footer{
 	background: red;
