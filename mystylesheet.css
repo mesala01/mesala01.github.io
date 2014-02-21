@@ -37,7 +37,8 @@ html{
 	height: 500px;
 	position:fix;
 	text-align:center;
-	text-font: 50px;
+	font-weight: 50px;
+	text-decoration:bold;
 }
 #footer{
 	background: red;
