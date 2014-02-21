@@ -23,3 +23,13 @@ p {
 .narrow {
     width: 50px;
 }
+
+@media (max-width: 480px) { 
+        body {
+          font-size: 20px;
+        }
+
+        .hidden-phone {
+           display: block;
+        }
+    }
