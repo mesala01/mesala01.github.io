@@ -1,46 +1,4 @@
-<<<<<<< HEAD
-body,
-html{
-    margin:0;
-	padding:0;
-	color:#FFFF00;
-	background: black;
-	}
 
-#wrap {
-	width: 750px;
-	margin: 0 auto;
-	background:#480000;
-}
-#header{
-    background: #200000 ;
-    text-align: center;
-}
-
-#nav{
-	background: white;
-	margin:0;
-	padding: 0;
-
-}
-
-#main{
-	background:#480000;
-	float:right;
-	width:500px;
-}
-#sidebar{
-	background: white;
-	float: left;
-	width:250px;
-	height: 250px;
-}
-#footer{
-	background: red;
-	clear:both;
-}
-    
-=======
 body,
 html{
     margin:0;
