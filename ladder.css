@@ -1,0 +1,57 @@
+body {
+    width: 500px;
+    margin: 0px auto 0px auto;
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+
+}
+p{
+	text-align: left;
+	font-size: 20px;
+	font-family: Verdana;
+	color: yellow;
+}
+
+#form {
+    background-color: green;
+    float: right;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.80);
+    padding: 30px 30px 30px 30px;
+    border-style: solid;
+    border-width: 2px;  
+    width: 500px
+}
+
+#DisplayResults {
+    background-color: green;
+    margin: 10px;
+    padding: 30px;
+    border-style: solid;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.80);
+    border-width: 2px;
+    border-radius: 10px;
+    width: 500px;
+    float: right;
+}
+
+#DisplayResults ul {
+    list-style: none;
+    margin: 2px;
+    padding: 2x;
+    color:yellow;
+}
+
+#DisplayResults li {
+	font-size: 15px;
+	font-weight: bold;
+    text-align: center;
+    border-style: solid; 
+    width: 120px;
+
+}
