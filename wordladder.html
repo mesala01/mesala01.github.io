@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Test Page</title>
+
+	<script src="ladderStackClass.js"></script>
+	<script src="SetClass.js"></script>
+	<script src="ladderQueueClass.js"></script>
+	<script src="wordlist.js"></script>
+	<script src="wordladder.js"></script>
+	<link rel="stylesheet" type="text/css" href="ladder.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1> Word Ladder</h1>
+        <p> 
+            Enter a starting and ending word, and change the length of your two words.
+           Then Click the "Find Ladder" button and wait while  the program is searching for a word ladder for your two words.
+            </p>
+        
+
+    </div>
+
+    <div id="form">
+        <form>
+            Start Word: <input type="text" id="startWord" value=""><br>
+            End Word: <input type="text" id="endWord" value=""><br>
+            Word length: <select id="length">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+            <input type="button" id="submit" value="Find Ladder" onclick="LadderFunc()">
+           
+        </form>
+
+       
+    </div>
+
+    <div id="DisplayResults">
+    
+    </div>
+    
+
+</body>
+
+</html>
