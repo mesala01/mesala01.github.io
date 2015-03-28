@@ -1,59 +1,49 @@
-<!DOCTYPE html>
-<html lang="eng">
-
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Test Page</title>
 
-
-
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title> My First page  </title>
-      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-      <link rel="stylesheet"  href="mobile.css" type="text/css" title" charset="utf-8">
-	  <link rel="stylesheet" type="text/css" href="mystylesheet.css">
-      
+	<script src="ladderStackClass.js"></script>
+	<script src="SetClass.js"></script>
+	<script src="ladderQueueClass.js"></script>
+	<script src="wordlist.js"></script>
+	<script src="wordladder.js"></script>
+	<link rel="stylesheet" type="text/css" href="ladder.css">
 </head>
+
 <body>
-  <div id="wrap">
-    <div id="header" class="floater1 col-xs12 col-md-8">
-            <h1>Laura Mesadieu</h1>
+    <div id="header">
+        <h1> Word Ladder</h1>
+        <p> 
+            Enter a starting and ending word, and change the length of your two words.
+           Then Click the "Find Ladder" button and wait while  the program is searching for a word ladder for your two words.
+            </p>
+        
+
     </div>
-	<div id="nav" class="floater2 col-xs-6 col-md-4">
 
-	
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="list.html">Favorites</a></li>
-		</ul>
-	</div>
-	
-   
-   <div id="main" class="narrow .col-xs-6 .col-md-4">
+    <div id="form">
+        <form>
+            Start Word: <input type="text" id="startWord" value=""><br>
+            End Word: <input type="text" id="endWord" value=""><br>
+            Word length: <select id="length">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+            <input type="button" id="submit" value="Find Ladder" onclick="LadderFunc()">
+           
+        </form>
 
-		<p>Welcome to my page.</p> 
+       
+    </div>
 
-	<br/><p> This is a link to a my <a href="wordladder.html">Word Ladder</a> homework</p>
-      
-		
-  </div>
-  <div id="sidebar">
+    <div id="DisplayResults">
+    
+    </div>
+    
 
-      <h2>Column 2</h2></div>
-
-  
-      
-  
-
-      
-  <div id="footer"><h3>Column3</h3></div> 
-
-</div>
-<script src="https://code.jquery.com/jquery.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<p> </p>
-
-      
 </body>
-</html>
 
+</html>
